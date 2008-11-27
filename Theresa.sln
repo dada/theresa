@@ -1,0 +1,31 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{20D4826A-C6FA-45DB-90F4-C717570B9F32}") = "Theresa", "Theresa.csdproj", "{C6406344-B749-4B14-9A65-D488D85BDE2A}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheresaServer", "TheresaServer\TheresaServer.csproj", "{0ECCCAB8-E112-4A78-8D8D-08608D8BD579}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{C6406344-B749-4B14-9A65-D488D85BDE2A}.Debug.ActiveCfg = Debug|Pocket PC
+		{C6406344-B749-4B14-9A65-D488D85BDE2A}.Debug.Build.0 = Debug|Pocket PC
+		{C6406344-B749-4B14-9A65-D488D85BDE2A}.Debug.Deploy.0 = Debug|Pocket PC
+		{C6406344-B749-4B14-9A65-D488D85BDE2A}.Release.ActiveCfg = Release|Pocket PC
+		{C6406344-B749-4B14-9A65-D488D85BDE2A}.Release.Build.0 = Release|Pocket PC
+		{C6406344-B749-4B14-9A65-D488D85BDE2A}.Release.Deploy.0 = Release|Pocket PC
+		{0ECCCAB8-E112-4A78-8D8D-08608D8BD579}.Debug.ActiveCfg = Debug|.NET
+		{0ECCCAB8-E112-4A78-8D8D-08608D8BD579}.Debug.Build.0 = Debug|.NET
+		{0ECCCAB8-E112-4A78-8D8D-08608D8BD579}.Release.ActiveCfg = Release|.NET
+		{0ECCCAB8-E112-4A78-8D8D-08608D8BD579}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,8 @@
+<Theresa file="skin">
+
+	<Background color="64,64,64" />
+	<Fader foreground="Theresa-FaderFg.png" background="Theresa-FaderBg.png" />
+	<Button on="Theresa-ButtOn.png" off="Theresa-ButtOff.png" />
+	<LCD background="Lime" foreground="Black" border="Green" />
+	
+</Theresa>

@@ -1,0 +1,18 @@
+<Theresa file="preset">
+	<Skin name="RolandModern" />
+	<Layout name="11Fdr-3Btn" />
+	<Controller id="1" cc="102" name="a-mix-b" value="64" />
+	<Controller id="2" cc="103" name="b-freq" value="0" />
+	<Controller id="3" cc="104" name="volume" value="95" />
+	<Controller id="4" cc="105" name="attack" value="71" />
+	<Controller id="5" cc="106" name="decay" value="95" />
+	<Controller id="6" cc="107" name="glide" value="64" />
+	<Controller id="7" cc="108" name="cutoff" value="43" />
+	<Controller id="8" cc="109" name="reso" value="0" />
+	<Controller id="9" cc="110" name="contour" value="114" />
+	<Controller id="10" cc="111" name="c-attack" value="60" />
+	<Controller id="11" cc="112" name="c-decay" value="106" />
+	<Controller id="12" cc="113" name="glide" value="127" />
+	<Controller id="13" cc="114" name="decay" value="127" />
+	<Controller id="14" cc="115" name="" value="0" />
+</Theresa>

@@ -1,0 +1,8 @@
+<Theresa file="skin">
+
+	<Background color="55,66,75" />
+	<Fader foreground="RolandModern-FaderFg.png" background="RolandModern-FaderBg.png" />
+	<Button on="RolandModern-ButtOn.png" off="RolandModern-ButtOff.png" />
+	<LCD background="240,98,62" foreground="83,52,49" border="143,54,50" />
+
+</Theresa>

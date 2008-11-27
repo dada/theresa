@@ -1,0 +1,8 @@
+<Theresa file="skin">
+
+	<Background color="246,248,247" />
+	<Fader foreground="NovationRemote-FaderFg.png" background="NovationRemote-FaderBg.png" />
+	<Button on="NovationRemote-ButtOn.png" off="NovationRemote-ButtOff.png" />
+	<LCD background="70,78,187" foreground="177,179,228" border="72,46,133" />
+
+</Theresa>
