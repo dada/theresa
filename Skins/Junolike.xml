@@ -1,0 +1,8 @@
+<Theresa file="skin">
+
+	<Background color="42,84,136" />
+	<Fader foreground="Junox2-FaderFg.png" background="Junox2-FaderBg.png" />
+	<Button on="Juno-ButtOn.png" off="Juno-ButtOff.png" />
+	<LCD background="31,27,28" foreground="144,187,196" border="0,0,0" />
+	
+</Theresa>

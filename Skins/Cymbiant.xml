@@ -1,0 +1,8 @@
+<Theresa file="skin">
+
+	<Background color="54,65,61" />
+	<Fader foreground="Cymbiant-FaderFg.png" background="Cymbiant-FaderBg.png" />
+	<Button on="Cymbiant-ButtOn.png" off="Cymbiant-ButtOff.png" />
+	<LCD background="White" foreground="Black" border="176,176,176" />
+
+</Theresa>

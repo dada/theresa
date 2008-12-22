@@ -1,0 +1,36 @@
+<project name="TheresaMIDI" default="all">
+  <property name="out" value="/pc#/Theresa/Client.exe" />
+  <target name="all">
+    <cscc output="${out}">
+      <sources basedir="/pc#/Theresa">
+        <includes name="Client.cs" />
+        <includes name="ControllerBase.cs" />
+        <includes name="Fader.cs" />
+        <includes name="PushButton.cs" />
+        <includes name="XyPad.cs" />
+        <includes name="Pager.cs" />
+        <includes name="BigButton.cs" />
+        <includes name="ControllerConfigScreen.cs" />
+        <includes name="TextInputScreen.cs" />
+        <includes name="Skin.cs" />
+        <includes name="ScreenBase.cs" />
+        <includes name="SelectionScreen.cs" />
+        <includes name="SettingsScreen.cs" />
+        <includes name="ConnectionScreen.cs" />
+        <includes name="Preset.cs" />
+        <includes name="NumberInputScreen.cs" />
+        <includes name="Global.cs" />
+        <includes name="AssemblyInfo.cs" />
+      </sources>
+      <arg value="-DUNDER_CE" />
+      <arg value="-O3" />
+      <arg value="-winforms" />
+      <arg value="-lSystem.dll" />
+      <arg value="-lSystem.Xml" />
+      <arg value="-lMicrosoft.WindowsCE.Forms" />
+    </cscc>
+  </target>
+  <target name="clean">
+    <delete file="${out}" />
+  </target>
+</project>

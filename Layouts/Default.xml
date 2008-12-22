@@ -1,0 +1,14 @@
+<Theresa file="layout">
+    <XyPad id="1"  x="0"   y="0" />
+    <Fader id="2"  x="144" y="0" />
+    <Fader id="3"  x="180" y="0" />
+    <Fader id="4"  x="0"   y="140" />
+    <Fader id="5"  x="36"  y="140" />
+    <Fader id="6"  x="72"  y="140" />
+    <Fader id="7" x="108" y="140" />
+    <Pager id="8" x="144" y="140" />
+    <Button id="9" x="144" y="185" />
+    <Button id="10" x="180" y="185" />
+    <Button id="11" x="144" y="230" />
+    <Button id="12" x="180" y="230" />
+</Theresa>

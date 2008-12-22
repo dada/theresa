@@ -1,0 +1,13 @@
+Revision history for Theresa
+
+0.7.1   2008-12-22
+        + XyPad
+        + Pager
+        + WLAN connectivity
+
+0.6.1   2008-05-13
+        - first release
+
+0.0.0   2008-04-06
+        - Theresa is born
+
