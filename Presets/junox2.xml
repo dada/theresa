@@ -1,0 +1,16 @@
+<Theresa file="preset">
+	<Skin name="Junolike" />
+	<Layout name="12Fdr" />
+	<Controller id="1" cc="102" name="fatness" value="51" />
+	<Controller id="2" cc="103" name="flt-freq" value="0" />
+	<Controller id="3" cc="104" name="flt-q" value="71" />
+	<Controller id="4" cc="105" name="lfo-freq" value="6" />
+	<Controller id="5" cc="106" name="lfo-pwm" value="127" />
+	<Controller id="6" cc="107" name="lfo-phase" value="33" />
+	<Controller id="7" cc="108" name="attack" value="0" />
+	<Controller id="8" cc="109" name="decay" value="50" />
+	<Controller id="9" cc="110" name="sustain" value="85" />
+	<Controller id="10" cc="111" name="release" value="95" />
+	<Controller id="11" cc="112" name="eg-pwm" value="66" />
+	<Controller id="12" cc="113" name="eg-flt" value="110" />
+</Theresa>
