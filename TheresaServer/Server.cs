@@ -33,7 +33,7 @@ public Server() {
 
   _Tray = new NotifyIcon();
   _Tray.Icon = _IconNormal;
-  _Tray.Text = "Theresa v0.6.1";
+  _Tray.Text = "Theresa v0.7.1";
   _Tray.Visible = true;
 
   ContextMenu popup = new ContextMenu();
