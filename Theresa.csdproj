@@ -24,7 +24,7 @@
                     BaseAddress = "0"
                     CheckForOverflowUnderflow = "false"
                     ConfigurationOverrideFile = ""
-                    DefineConstants = "DEBUG;TRACE"
+                    DefineConstants = "UNDER_CE"
                     DocumentationFile = ""
                     DebugSymbols = "true"
                     FileAlignment = "4096"
@@ -42,7 +42,7 @@
                     BaseAddress = "0"
                     CheckForOverflowUnderflow = "false"
                     ConfigurationOverrideFile = ""
-                    DefineConstants = "TRACE"
+                    DefineConstants = ""
                     DocumentationFile = ""
                     DebugSymbols = "false"
                     FileAlignment = "4096"
@@ -152,6 +152,11 @@
                     BuildAction = "Compile"
                 />
                 <File
+                    RelPath = "ConnectionScreen.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
                     RelPath = "ControllerBase.cs"
                     SubType = "Code"
                     BuildAction = "Compile"
@@ -182,6 +187,11 @@
                 <File
                     RelPath = "NumberInputScreen.cs"
                     SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pager.cs"
+                    SubType = "Code"
                     BuildAction = "Compile"
                 />
                 <File
@@ -217,6 +227,11 @@
                 <File
                     RelPath = "TextInputScreen.cs"
                     SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "XyPad.cs"
+                    SubType = "Code"
                     BuildAction = "Compile"
                 />
             </Include>

@@ -335,9 +335,6 @@ public void LoadLayout(string name) {
     if(n.NodeType == XmlNodeType.Element && n.Name == "XyPad") {
       controller = (IController) new XyPad(_CurrentSkin);
     }
-    if(n.NodeType == XmlNodeType.Element && n.Name == "SpiralPad") {
-      controller = (IController) new SpiralPad(_CurrentSkin);
-    }
     if(n.NodeType == XmlNodeType.Element && n.Name == "Pager") {
       controller = (IController) new Pager(_CurrentSkin);
     }

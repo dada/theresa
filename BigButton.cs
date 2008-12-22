@@ -20,13 +20,11 @@ protected Graphics _OffScreenGraphics;
 private static Font _Font;
 private static ImageAttributes _MagentaKiller;
 
-#if UNDER_CE
 protected String _Name;
 public String Name {
   get { return _Name; }
   set { _Name = value; }
 }
-#endif
 
 protected Bitmap _Picture;
 public Bitmap Picture {

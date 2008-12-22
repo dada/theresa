@@ -1,5 +1,5 @@
 
-Theresa v0.6.1 README
+Theresa v0.7.1 README
 
 Theresa is a simple PocketPC/Windows (targeting the Compact .NET Framework 1.0)
 client/server application that turns a Pocket PC PDA into a MIDI controller 
@@ -8,9 +8,9 @@ surface. well, that's the plan.
 basically you start the server on the desktop PC (the server sits quietly in 
 the system tray), then start the client on the (ActiveSync-connected)
 Pocket PC et voila, you can use your finger on the PDA touchscreen to move 
-faders and push buttons.
+faders, push buttons and XY pads.
 
-faders and buttons that can be freely assigned to MIDI CC. how sweet.
+faders, buttons and pads that can be freely assigned to MIDI CC. how sweet.
 
 Theresa has customizable layouts, she's skinnable and can save/load presets.
 last but not least, she's freeware (as in free beer) and open source.
