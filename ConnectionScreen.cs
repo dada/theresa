@@ -34,7 +34,7 @@ public ConnectionScreen(Skin skin) : base(skin) {
   
   _Host = new BigButton(Skin);
   _Host.Bounds = new Rectangle(10, 50, ClientSize.Width-20, 32);
-  _Host.FitText("Use Wifi: ", _Connection.Host);
+  _Host.FitText("Use WLAN: ", _Connection.Host);
   _Host.Click += new EventHandler(EditHost);
   _Host.Parent = this;
 

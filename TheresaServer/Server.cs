@@ -33,7 +33,11 @@ public Server() {
 
   _Tray = new NotifyIcon();
   _Tray.Icon = _IconNormal;
-  _Tray.Text = "Theresa v0.7.1";
+  _Tray.Text = String.Format("Theresa v{0}.{1}.{2}", 
+    me.GetName().Version.Major,
+    me.GetName().Version.Minor,
+    me.GetName().Version.Build
+  );
   _Tray.Visible = true;
 
   ContextMenu popup = new ContextMenu();
@@ -52,16 +56,25 @@ public Server() {
 
 private void StartServer() {
   try {
+    Assembly me = Assembly.GetExecutingAssembly();
     TcpListener server = new TcpListener(IPAddress.Any, 7353);
     server.Start();
     while(true) {
       Console.WriteLine("Waiting...");
       _Tray.Icon = _IconOff;
-      _Tray.Text = "Theresa v0.6.1";
+      _Tray.Text = = String.Format("Theresa v{0}.{1}.{2}", 
+        me.GetName().Version.Major,
+        me.GetName().Version.Minor,
+        me.GetName().Version.Build
+      );
       TcpClient client = server.AcceptTcpClient();
       Console.WriteLine("Got connection");
       _Tray.Icon = _IconOn;
-      _Tray.Text = "Theresa v0.6.1 CONNECTED";
+      _Tray.Text = String.Format("Theresa v{0}.{1}.{2} CONNECTED", 
+        me.GetName().Version.Major,
+        me.GetName().Version.Minor,
+        me.GetName().Version.Build
+      );
       client.NoDelay = true;
       client.ReceiveBufferSize = 1;
       _Net = client.GetStream();

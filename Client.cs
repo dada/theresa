@@ -469,18 +469,18 @@ public void OnControlChange(object sender, EventArgs e) {
   if(!_Connected) return;
   IMidiController control = (IMidiController) sender;
   if(_Connected) {
-	if(control.Config.CC != 0) {
+  if(control.Config.CC != 0) {
       byte value = Convert.ToByte(control.Value);
       byte cc = Convert.ToByte(control.Config.CC);
-	  _Net.Write(new byte[3] { 99, cc, value }, 0, 3);
+    _Net.Write(new byte[3] { 99, cc, value }, 0, 3);
       _Net.Flush();
-	}
-	if(control.Config.CC2 != 0) {
+  }
+  if(control.Config.CC2 != 0) {
       byte value = Convert.ToByte(control.Value2);
-      byte cc = Convert.ToByte(control.Config.CC2);	
-	  _Net.Write(new byte[3] { 99, cc, value }, 0, 3);
+      byte cc = Convert.ToByte(control.Config.CC2); 
+    _Net.Write(new byte[3] { 99, cc, value }, 0, 3);
       _Net.Flush();
-    }	  
+    }   
   }
 }
 
@@ -536,7 +536,7 @@ public override string ToString() {
   if(_UseActiveSync) {
     return "(ActiveSync)";
   } else {
-    return "(Wifi) " + _Host;
+    return "(WLAN) " + _Host;
   }
 }
 
