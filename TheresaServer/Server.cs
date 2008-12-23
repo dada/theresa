@@ -62,7 +62,7 @@ private void StartServer() {
     while(true) {
       Console.WriteLine("Waiting...");
       _Tray.Icon = _IconOff;
-      _Tray.Text = = String.Format("Theresa v{0}.{1}.{2}", 
+      _Tray.Text = String.Format("Theresa v{0}.{1}.{2}", 
         me.GetName().Version.Major,
         me.GetName().Version.Minor,
         me.GetName().Version.Build
