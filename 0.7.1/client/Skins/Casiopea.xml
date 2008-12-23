@@ -1,0 +1,8 @@
+<Theresa file="skin">
+
+	<Background color="25,25,25" />
+	<Fader foreground="Casiopea-FaderFg.png" background="Casiopea-FaderBg.png" />
+	<Button on="Casiopea-ButtOn.png" off="Casiopea-ButtOff.png" />
+	<LCD background="254,0,0" foreground="102,0,0" border="166,0,0" />
+
+</Theresa>

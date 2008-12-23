@@ -1,0 +1,14 @@
+Revision history for Theresa
+
+0.7.1   2008-12-23
+        + XyPad
+        + Pager
+        + Buttons and Faders can have a 2nd (inverted) CC
+        + WLAN connectivity (not really tested...)
+
+0.6.1   2008-05-13
+        - first release
+
+0.0.0   2008-04-06
+        - Theresa is born
+

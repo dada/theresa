@@ -1,0 +1,20 @@
+<Theresa file="preset">
+	<Skin name="Default" />
+	<Layout name="10Fdr-6Btn" />
+	<Controller id="1" cc="102" name="r-rate" value="48" />
+	<Controller id="2" cc="103" name="r-depth" value="21" />
+	<Controller id="3" cc="104" name="r-mix" value="60" />
+	<Controller id="4" cc="105" name="f-rate" value="28" />
+	<Controller id="5" cc="106" name="f-depth" value="32" />
+	<Controller id="6" cc="107" name="volume" value="85" />
+	<Controller id="7" cc="108" name="attack" value="0" />
+	<Controller id="8" cc="109" name="decay" value="63" />
+	<Controller id="9" cc="110" name="sustain" value="100" />
+	<Controller id="10" cc="111" name="release" value="60" />
+	<Controller id="11" cc="112" name="octavia" value="0" />
+	<Controller id="12" cc="113" name="ring" value="0" />
+	<Controller id="13" cc="114" name="fuzz" value="0" />
+	<Controller id="14" cc="115" name="fuzz-b" value="0" />
+	<Controller id="15" cc="116" name="filter" value="127" />
+	<Controller id="16" cc="117" name="st-res" value="127" />
+</Theresa>
